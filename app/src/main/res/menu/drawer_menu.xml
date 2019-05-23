@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:shownIn="navigation_view">
+ <group android:checkableBehavior="single">
+     <item android:id="@+id/walk"
+         android:icon="@drawable/ic_walk"
+         android:title="Шагомер"/>
+     <item android:id="@+id/exercises"
+         android:icon="@drawable/ic_exercise"
+         android:title="Упражнения"/>
+     <item android:id="@+id/sleep"
+         android:icon="@drawable/ic_sleep"
+         android:title="Сон"/>
+     <item android:id="@+id/food"
+         android:icon="@drawable/ic_breakfast"
+         android:title="Питание"/>
+     <item android:id="@+id/water"
+         android:icon="@drawable/ic_water"
+         android:title="Водный баланс"/>
+ </group>
+
+    <item android:title="Другое">
+        <menu>
+            <item android:id="@+id/settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Настройки"/>
+            <item android:id="@+id/authors"
+                android:icon="@drawable/ic_creative"
+                android:title="О нас"/>
+        </menu>
+    </item>
+</menu>
